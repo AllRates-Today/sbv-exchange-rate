@@ -70,10 +70,10 @@ const pair = await getRate('USD', 'VND', { apiKey: 'art_live_...' });
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-08-20',   // State Bank of Vietnam's own publication date
+  rate_date: '2026-09-09',   // State Bank of Vietnam's own publication date
   source: 'USD',
   target: 'VND',
-  rate: 25590,
+  rate: 25594,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -98,11 +98,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-08-20',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "USD", "quote": "VND", "type": "reference", "value": 25590 },
-    { "base": "USD", "quote": "VND", "type": "buy", "value": 24361 },
-    { "base": "USD", "quote": "VND", "type": "sell", "value": 26819 },
+    { "base": "USD", "quote": "VND", "type": "reference", "value": 25594 },
+    { "base": "USD", "quote": "VND", "type": "sell", "value": 26823 },
+    { "base": "USD", "quote": "VND", "type": "buy", "value": 24365 },
     // … the rest of the published table (28 currencies vs VND)
   ],
   disclaimer: '…'
@@ -142,7 +142,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'sbv-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-08-20' },
+  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -155,11 +155,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VND',
   from: '2026-01-01',
-  to: '2026-08-20',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-20', rate: 25590, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 25594, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -237,6 +237,14 @@ getRate('USD', 'VND', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2009 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/sbv.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/sbv/latest.json`
 
 ## 🔗 Links
 
