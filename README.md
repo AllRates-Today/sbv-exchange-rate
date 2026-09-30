@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'VND', { apiKey: 'art_live_...' });
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-09-09',   // State Bank of Vietnam's own publication date
+  rate_date: '2026-09-26',   // State Bank of Vietnam's own publication date
   source: 'USD',
   target: 'VND',
-  rate: 25594,
+  rate: 25641,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,11 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-26',
   rates: [
-    { "base": "USD", "quote": "VND", "type": "reference", "value": 25594 },
-    { "base": "USD", "quote": "VND", "type": "sell", "value": 26823 },
-    { "base": "USD", "quote": "VND", "type": "buy", "value": 24365 },
+    { "base": "USD", "quote": "VND", "type": "reference", "value": 25641 },
     // … the rest of the published table (28 currencies vs VND)
   ],
   disclaimer: '…'
@@ -157,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'sbv-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-09-26' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VND',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-26',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 25594, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-26', rate: 25641, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
