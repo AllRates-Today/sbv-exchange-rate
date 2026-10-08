@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'VND', { apiKey: 'art_live_...' });
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-10-06',   // State Bank of Vietnam's own publication date
+  rate_date: '2026-10-08',   // State Bank of Vietnam's own publication date
   source: 'USD',
   target: 'VND',
-  rate: 25645,
+  rate: 25634,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-10-06',
+  rate_date: '2026-10-08',
   rates: [
-    { "base": "USD", "quote": "VND", "type": "reference", "value": 25645 },
-    { "base": "USD", "quote": "VND", "type": "sell", "value": 26877 },
-    { "base": "USD", "quote": "VND", "type": "buy", "value": 24413 },
+    { "base": "USD", "quote": "VND", "type": "reference", "value": 25634 },
+    { "base": "USD", "quote": "VND", "type": "sell", "value": 26869 },
+    { "base": "USD", "quote": "VND", "type": "buy", "value": 24407 },
     // … the rest of the published table (28 currencies vs VND)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'sbv-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-10-06' },
+  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-10-08' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VND',
   from: '2026-01-01',
-  to: '2026-10-06',
+  to: '2026-10-08',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-06', rate: 25645, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-08', rate: 25634, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -223,6 +223,7 @@ curl "https://allratestoday.com/api/v1/central-bank/sbv/latest?format=xml&api_ke
 
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('sbv')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
+- Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate sbv ...` command
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
