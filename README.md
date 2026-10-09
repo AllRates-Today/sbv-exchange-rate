@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/sbv-exchange-rate.svg)](https://github.com/AllRates-Today/sbv-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/sbv-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/VND today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fsbv%3Fsource%3DUSD%26target%3DVND&query=%24.rate&label=USD%2FVND%20published%20by%20State%20Bank%20of%20Vietnam&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/sbv/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fsbv%3Fsource%3DUSD%26target%3DVND&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/sbv/)
 
 **Official State Bank of Vietnam (Vietnam) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers State Bank of Vietnam itself prints, every business day.**
 
@@ -32,6 +34,61 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full State Bank of Vietnam table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by State Bank of Vietnam — 42 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | VND | reference | 6980.7 |
+| AUD | VND | buy | 16962 |
+| AUD | VND | reference | 17869.69 |
+| AUD | VND | sell | 18747 |
+| BRL | VND | reference | 5145.3 |
+| CAD | VND | buy | 17127 |
+| CAD | VND | reference | 18030.8 |
+| CAD | VND | sell | 18930 |
+| CHF | VND | buy | 29294 |
+| CHF | VND | reference | 30789 |
+| CHF | VND | sell | 32377 |
+| CNY | VND | reference | 3824 |
+| DKK | VND | reference | 3850.71 |
+| EUR | VND | buy | 27318 |
+| EUR | VND | reference | 28778.66 |
+| EUR | VND | sell | 30194 |
+| GBP | VND | buy | 32231 |
+| GBP | VND | reference | 33960.09 |
+| GBP | VND | sell | 35624 |
+| HKD | VND | reference | 3267.03 |
+| IDR | VND | reference | 1.43 |
+| INR | VND | reference | 265.17 |
+| JPY | VND | buy | 154 |
+| JPY | VND | reference | 161.97 |
+| JPY | VND | sell | 170 |
+| KHR | VND | reference | 6.34 |
+| KRW | VND | reference | 19.13 |
+| LAK | VND | reference | 1.15 |
+| MOP | VND | reference | 3171.84 |
+| MYR | VND | reference | 6276.9 |
+| NOK | VND | reference | 2680.26 |
+| NZD | VND | reference | 14372.66 |
+| PLN | VND | reference | 6576.04 |
+| RUB | VND | reference | 300.25 |
+| SEK | VND | reference | 2555.98 |
+| SGD | VND | reference | 20043.78 |
+| THB | VND | reference | 761.45 |
+| TRY | VND | reference | 521.18 |
+| TWD | VND | reference | 804.78 |
+| USD | VND | buy | 24398 |
+| USD | VND | reference | 25629 |
+| USD | VND | sell | 26860 |
+
+Source: [Official rates published by SBV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
