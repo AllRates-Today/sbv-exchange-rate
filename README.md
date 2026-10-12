@@ -40,7 +40,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full State Bank of Vietnam table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-10** by State Bank of Vietnam — 42 rates. Updated 2026-10-09.
+Published **2026-10-12** by State Bank of Vietnam — 42 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -84,7 +84,7 @@ Published **2026-10-10** by State Bank of Vietnam — 42 rates. Updated 2026-10-
 | TRY | VND | reference | 521.18 |
 | TWD | VND | reference | 804.78 |
 | USD | VND | buy | 24398 |
-| USD | VND | reference | 25629 |
+| USD | VND | reference | 25621 |
 | USD | VND | sell | 26860 |
 
 Source: [Official rates published by SBV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
