@@ -144,10 +144,10 @@ const pair = await getRate('USD', 'VND', { apiKey: 'art_live_...' });
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-10-12',   // State Bank of Vietnam's own publication date
+  rate_date: '2026-10-14',   // State Bank of Vietnam's own publication date
   source: 'USD',
   target: 'VND',
-  rate: 25621,
+  rate: 25646,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -172,11 +172,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'sbv',
   name: 'State Bank of Vietnam',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-14',
   rates: [
-    { "base": "USD", "quote": "VND", "type": "reference", "value": 25621 },
-    { "base": "USD", "quote": "VND", "type": "sell", "value": 26860 },
-    { "base": "USD", "quote": "VND", "type": "buy", "value": 24398 },
+    { "base": "USD", "quote": "VND", "type": "reference", "value": 25646 },
+    { "base": "USD", "quote": "VND", "type": "sell", "value": 26878 },
+    { "base": "USD", "quote": "VND", "type": "buy", "value": 24414 },
     // … the rest of the published table (28 currencies vs VND)
   ],
   disclaimer: '…'
@@ -216,7 +216,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'sbv-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'VND', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -229,11 +229,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VND',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 25621, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 25646, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -352,9 +352,9 @@ getRate('USD', 'VND', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/sbv.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/sbv.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/sbv/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/sbv/latest.json`
 
 ## 🔗 Links
 
