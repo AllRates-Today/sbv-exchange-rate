@@ -42,29 +42,29 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by State Bank of Vietnam — 42 rates. Updated 2026-10-13.
+Published **2026-10-14** by State Bank of Vietnam — 42 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | VND | reference | 6980.7 |
-| AUD | VND | buy | 16933 |
+| AUD | VND | buy | 17031 |
 | AUD | VND | reference | 17869.69 |
-| AUD | VND | sell | 18715 |
+| AUD | VND | sell | 18824 |
 | BRL | VND | reference | 5145.3 |
-| CAD | VND | buy | 17062 |
+| CAD | VND | buy | 17148 |
 | CAD | VND | reference | 18030.8 |
-| CAD | VND | sell | 18858 |
-| CHF | VND | buy | 29211 |
+| CAD | VND | sell | 18953 |
+| CHF | VND | buy | 29267 |
 | CHF | VND | reference | 30789 |
-| CHF | VND | sell | 32285 |
+| CHF | VND | sell | 32348 |
 | CNY | VND | reference | 3824 |
 | DKK | VND | reference | 3850.71 |
-| EUR | VND | buy | 27189 |
+| EUR | VND | buy | 27297 |
 | EUR | VND | reference | 28778.66 |
-| EUR | VND | sell | 30052 |
-| GBP | VND | buy | 32182 |
+| EUR | VND | sell | 30170 |
+| GBP | VND | buy | 32310 |
 | GBP | VND | reference | 33960.09 |
-| GBP | VND | sell | 35569 |
+| GBP | VND | sell | 35711 |
 | HKD | VND | reference | 3267.03 |
 | IDR | VND | reference | 1.43 |
 | INR | VND | reference | 265.17 |
@@ -85,9 +85,9 @@ Published **2026-10-13** by State Bank of Vietnam — 42 rates. Updated 2026-10-
 | THB | VND | reference | 761.45 |
 | TRY | VND | reference | 521.18 |
 | TWD | VND | reference | 804.78 |
-| USD | VND | buy | 24402 |
-| USD | VND | reference | 25633 |
-| USD | VND | sell | 26864 |
+| USD | VND | buy | 24414 |
+| USD | VND | reference | 25646 |
+| USD | VND | sell | 26878 |
 
 Source: [Official rates published by SBV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
