@@ -42,51 +42,51 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by State Bank of Vietnam — 42 rates. Updated 2026-10-14.
+Published **2026-10-15** by State Bank of Vietnam — 42 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | VND | reference | 6980.7 |
+| AED | VND | reference | 6983.06 |
 | AUD | VND | buy | 17031 |
-| AUD | VND | reference | 17869.69 |
+| AUD | VND | reference | 17941.94 |
 | AUD | VND | sell | 18824 |
-| BRL | VND | reference | 5145.3 |
+| BRL | VND | reference | 5102.06 |
 | CAD | VND | buy | 17148 |
-| CAD | VND | reference | 18030.8 |
+| CAD | VND | reference | 18061.84 |
 | CAD | VND | sell | 18953 |
 | CHF | VND | buy | 29267 |
-| CHF | VND | reference | 30789 |
+| CHF | VND | reference | 30831.93 |
 | CHF | VND | sell | 32348 |
-| CNY | VND | reference | 3824 |
-| DKK | VND | reference | 3850.71 |
+| CNY | VND | reference | 3832.68 |
+| DKK | VND | reference | 3846.42 |
 | EUR | VND | buy | 27297 |
-| EUR | VND | reference | 28778.66 |
+| EUR | VND | reference | 28746.6 |
 | EUR | VND | sell | 30170 |
 | GBP | VND | buy | 32310 |
-| GBP | VND | reference | 33960.09 |
+| GBP | VND | reference | 34037.37 |
 | GBP | VND | sell | 35711 |
-| HKD | VND | reference | 3267.03 |
+| HKD | VND | reference | 3267.84 |
 | IDR | VND | reference | 1.43 |
-| INR | VND | reference | 265.17 |
+| INR | VND | reference | 269.93 |
 | JPY | VND | buy | 154 |
-| JPY | VND | reference | 161.97 |
+| JPY | VND | reference | 162.12 |
 | JPY | VND | sell | 170 |
-| KHR | VND | reference | 6.34 |
-| KRW | VND | reference | 19.13 |
+| KHR | VND | reference | 6.32 |
+| KRW | VND | reference | 19.17 |
 | LAK | VND | reference | 1.15 |
-| MOP | VND | reference | 3171.84 |
-| MYR | VND | reference | 6276.9 |
-| NOK | VND | reference | 2680.26 |
-| NZD | VND | reference | 14372.66 |
-| PLN | VND | reference | 6576.04 |
-| RUB | VND | reference | 300.25 |
-| SEK | VND | reference | 2555.98 |
-| SGD | VND | reference | 20043.78 |
-| THB | VND | reference | 761.45 |
-| TRY | VND | reference | 521.18 |
-| TWD | VND | reference | 804.78 |
+| MOP | VND | reference | 3172.83 |
+| MYR | VND | reference | 6285.78 |
+| NOK | VND | reference | 2701.26 |
+| NZD | VND | reference | 14425.88 |
+| PLN | VND | reference | 6580.79 |
+| RUB | VND | reference | 306.59 |
+| SEK | VND | reference | 2578.65 |
+| SGD | VND | reference | 20037.5 |
+| THB | VND | reference | 764.87 |
+| TRY | VND | reference | 519.43 |
+| TWD | VND | reference | 797.1 |
 | USD | VND | buy | 24414 |
-| USD | VND | reference | 25646 |
+| USD | VND | reference | 25642 |
 | USD | VND | sell | 26878 |
 
 Source: [Official rates published by SBV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/sbv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
