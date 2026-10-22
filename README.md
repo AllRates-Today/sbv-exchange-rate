@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-21 by State Bank of Vietnam — 42 rates. Updated 2026-10-21.</summary>
+<summary>Table as text: published 2026-10-22 by State Bank of Vietnam — 42 rates. Updated 2026-10-22.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | VND | reference | 6983.06 |
-| AUD | VND | buy | 17078 |
-| AUD | VND | reference | 17941.94 |
-| AUD | VND | sell | 18876 |
-| BRL | VND | reference | 5102.06 |
-| CAD | VND | buy | 17315 |
-| CAD | VND | reference | 18061.84 |
-| CAD | VND | sell | 19138 |
-| CHF | VND | buy | 29486 |
-| CHF | VND | reference | 30831.93 |
-| CHF | VND | sell | 32590 |
-| CNY | VND | reference | 3832.68 |
-| DKK | VND | reference | 3846.42 |
-| EUR | VND | buy | 27340 |
-| EUR | VND | reference | 28746.6 |
-| EUR | VND | sell | 30218 |
-| GBP | VND | buy | 32565 |
-| GBP | VND | reference | 34037.37 |
-| GBP | VND | sell | 35993 |
-| HKD | VND | reference | 3267.84 |
+| AED | VND | reference | 6979.8 |
+| AUD | VND | buy | 17116 |
+| AUD | VND | reference | 17987.38 |
+| AUD | VND | sell | 18918 |
+| BRL | VND | reference | 5102.21 |
+| CAD | VND | buy | 17341 |
+| CAD | VND | reference | 18231.86 |
+| CAD | VND | sell | 19166 |
+| CHF | VND | buy | 29539 |
+| CHF | VND | reference | 31048.93 |
+| CHF | VND | sell | 32648 |
+| CNY | VND | reference | 3838.17 |
+| DKK | VND | reference | 3850.45 |
+| EUR | VND | buy | 27352 |
+| EUR | VND | reference | 28776.73 |
+| EUR | VND | sell | 30231 |
+| GBP | VND | buy | 32617 |
+| GBP | VND | reference | 34272.66 |
+| GBP | VND | sell | 36051 |
+| HKD | VND | reference | 3266.48 |
 | IDR | VND | reference | 1.43 |
-| INR | VND | reference | 269.93 |
+| INR | VND | reference | 270.46 |
 | JPY | VND | buy | 154 |
-| JPY | VND | reference | 162.12 |
+| JPY | VND | reference | 162 |
 | JPY | VND | sell | 170 |
-| KHR | VND | reference | 6.32 |
-| KRW | VND | reference | 19.17 |
-| LAK | VND | reference | 1.15 |
-| MOP | VND | reference | 3172.83 |
-| MYR | VND | reference | 6285.78 |
-| NOK | VND | reference | 2701.26 |
-| NZD | VND | reference | 14425.88 |
-| PLN | VND | reference | 6580.79 |
-| RUB | VND | reference | 306.59 |
-| SEK | VND | reference | 2578.65 |
-| SGD | VND | reference | 20037.5 |
-| THB | VND | reference | 764.87 |
-| TRY | VND | reference | 519.43 |
-| TWD | VND | reference | 797.1 |
-| USD | VND | buy | 24403 |
-| USD | VND | reference | 25634 |
-| USD | VND | sell | 26865 |
+| KHR | VND | reference | 6.3 |
+| KRW | VND | reference | 19.31 |
+| LAK | VND | reference | 1.14 |
+| MOP | VND | reference | 3171.35 |
+| MYR | VND | reference | 6282.84 |
+| NOK | VND | reference | 2727.43 |
+| NZD | VND | reference | 14547.3 |
+| PLN | VND | reference | 6591.75 |
+| RUB | VND | reference | 310.9 |
+| SEK | VND | reference | 2587.75 |
+| SGD | VND | reference | 20057.9 |
+| THB | VND | reference | 761.78 |
+| TRY | VND | reference | 516.99 |
+| TWD | VND | reference | 786.66 |
+| USD | VND | buy | 24401 |
+| USD | VND | reference | 25632 |
+| USD | VND | sell | 26863 |
 
 </details>
 
