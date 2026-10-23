@@ -47,35 +47,35 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by State Bank of Vietnam — 42 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-23 by State Bank of Vietnam — 42 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | VND | reference | 6979.8 |
-| AUD | VND | buy | 17116 |
+| AUD | VND | buy | 17093 |
 | AUD | VND | reference | 17987.38 |
-| AUD | VND | sell | 18918 |
+| AUD | VND | sell | 18892 |
 | BRL | VND | reference | 5102.21 |
-| CAD | VND | buy | 17341 |
+| CAD | VND | buy | 17387 |
 | CAD | VND | reference | 18231.86 |
-| CAD | VND | sell | 19166 |
-| CHF | VND | buy | 29539 |
+| CAD | VND | sell | 19217 |
+| CHF | VND | buy | 29679 |
 | CHF | VND | reference | 31048.93 |
-| CHF | VND | sell | 32648 |
+| CHF | VND | sell | 32803 |
 | CNY | VND | reference | 3838.17 |
 | DKK | VND | reference | 3850.45 |
-| EUR | VND | buy | 27352 |
+| EUR | VND | buy | 27313 |
 | EUR | VND | reference | 28776.73 |
-| EUR | VND | sell | 30231 |
-| GBP | VND | buy | 32617 |
+| EUR | VND | sell | 30188 |
+| GBP | VND | buy | 32628 |
 | GBP | VND | reference | 34272.66 |
-| GBP | VND | sell | 36051 |
+| GBP | VND | sell | 36063 |
 | HKD | VND | reference | 3266.48 |
 | IDR | VND | reference | 1.43 |
 | INR | VND | reference | 270.46 |
-| JPY | VND | buy | 154 |
+| JPY | VND | buy | 156 |
 | JPY | VND | reference | 162 |
-| JPY | VND | sell | 170 |
+| JPY | VND | sell | 172 |
 | KHR | VND | reference | 6.3 |
 | KRW | VND | reference | 19.31 |
 | LAK | VND | reference | 1.14 |
@@ -90,9 +90,9 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | THB | VND | reference | 761.78 |
 | TRY | VND | reference | 516.99 |
 | TWD | VND | reference | 786.66 |
-| USD | VND | buy | 24401 |
-| USD | VND | reference | 25632 |
-| USD | VND | sell | 26863 |
+| USD | VND | buy | 24396 |
+| USD | VND | reference | 25627 |
+| USD | VND | sell | 26858 |
 
 </details>
 
