@@ -47,51 +47,51 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by State Bank of Vietnam — 42 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by State Bank of Vietnam — 42 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | VND | reference | 6979.8 |
+| AED | VND | reference | 6978.98 |
 | AUD | VND | buy | 17147 |
-| AUD | VND | reference | 17987.38 |
+| AUD | VND | reference | 18018.59 |
 | AUD | VND | sell | 18952 |
-| BRL | VND | reference | 5102.21 |
+| BRL | VND | reference | 4789.32 |
 | CAD | VND | buy | 17326 |
-| CAD | VND | reference | 18231.86 |
+| CAD | VND | reference | 18224.54 |
 | CAD | VND | sell | 19150 |
 | CHF | VND | buy | 29363 |
-| CHF | VND | reference | 31048.93 |
+| CHF | VND | reference | 30891.89 |
 | CHF | VND | sell | 32454 |
-| CNY | VND | reference | 3838.17 |
-| DKK | VND | reference | 3850.45 |
+| CNY | VND | reference | 3844.34 |
+| DKK | VND | reference | 3813.63 |
 | EUR | VND | buy | 27090 |
-| EUR | VND | reference | 28776.73 |
+| EUR | VND | reference | 28501.67 |
 | EUR | VND | sell | 29942 |
 | GBP | VND | buy | 32398 |
-| GBP | VND | reference | 34272.66 |
+| GBP | VND | reference | 34076.41 |
 | GBP | VND | sell | 35808 |
-| HKD | VND | reference | 3266.48 |
-| IDR | VND | reference | 1.43 |
-| INR | VND | reference | 270.46 |
+| HKD | VND | reference | 3267.3 |
+| IDR | VND | reference | 1.41 |
+| INR | VND | reference | 269.43 |
 | JPY | VND | buy | 154 |
-| JPY | VND | reference | 162 |
+| JPY | VND | reference | 162.26 |
 | JPY | VND | sell | 171 |
-| KHR | VND | reference | 6.3 |
-| KRW | VND | reference | 19.31 |
+| KHR | VND | reference | 6.29 |
+| KRW | VND | reference | 19.14 |
 | LAK | VND | reference | 1.14 |
-| MOP | VND | reference | 3171.35 |
-| MYR | VND | reference | 6282.84 |
-| NOK | VND | reference | 2727.43 |
-| NZD | VND | reference | 14547.3 |
-| PLN | VND | reference | 6591.75 |
-| RUB | VND | reference | 310.9 |
-| SEK | VND | reference | 2587.75 |
-| SGD | VND | reference | 20057.9 |
-| THB | VND | reference | 761.78 |
-| TRY | VND | reference | 516.99 |
-| TWD | VND | reference | 786.66 |
+| MOP | VND | reference | 3172.15 |
+| MYR | VND | reference | 6282.11 |
+| NOK | VND | reference | 2747.04 |
+| NZD | VND | reference | 14376.43 |
+| PLN | VND | reference | 6478.04 |
+| RUB | VND | reference | 317.33 |
+| SEK | VND | reference | 2574.56 |
+| SGD | VND | reference | 20002.34 |
+| THB | VND | reference | 757.87 |
+| TRY | VND | reference | 514.54 |
+| TWD | VND | reference | 790.57 |
 | USD | VND | buy | 24400 |
-| USD | VND | reference | 25631 |
+| USD | VND | reference | 25644 |
 | USD | VND | sell | 26862 |
 
 </details>
@@ -259,6 +259,7 @@ The State Bank of Vietnam announces a daily USD/VND central rate — each announ
 
 - Publisher's own page: [Central exchange rate](https://www.sbv.gov.vn/bieu-do-ty-gia-trung-tam) · [www.sbv.gov.vn](https://www.sbv.gov.vn)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [State Bank of Vietnam rates page](https://allratestoday.com/central-bank-rates-api/sbv/)
+- In the API: usually by **02:20 UTC** (measured over the last 13 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
