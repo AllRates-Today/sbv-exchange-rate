@@ -24,56 +24,41 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest State Bank of Vietnam table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/sbv?source=USD&target=VND"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/sbv').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest State Bank of Vietnam table](https://allratestoday.com/api/open/central-bank/sbv/table.svg)](https://allratestoday.com/central-bank-rates-api/sbv/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by State Bank of Vietnam — 42 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by State Bank of Vietnam — 42 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | VND | reference | 6978.98 |
-| AUD | VND | buy | 17147 |
+| AUD | VND | buy | 17107 |
 | AUD | VND | reference | 18018.59 |
-| AUD | VND | sell | 18952 |
+| AUD | VND | sell | 18908 |
 | BRL | VND | reference | 4789.32 |
-| CAD | VND | buy | 17326 |
+| CAD | VND | buy | 17437 |
 | CAD | VND | reference | 18224.54 |
-| CAD | VND | sell | 19150 |
-| CHF | VND | buy | 29363 |
+| CAD | VND | sell | 19272 |
+| CHF | VND | buy | 29687 |
 | CHF | VND | reference | 30891.89 |
-| CHF | VND | sell | 32454 |
+| CHF | VND | sell | 32812 |
 | CNY | VND | reference | 3844.34 |
 | DKK | VND | reference | 3813.63 |
-| EUR | VND | buy | 27090 |
+| EUR | VND | buy | 27296 |
 | EUR | VND | reference | 28501.67 |
-| EUR | VND | sell | 29942 |
-| GBP | VND | buy | 32398 |
+| EUR | VND | sell | 30169 |
+| GBP | VND | buy | 32638 |
 | GBP | VND | reference | 34076.41 |
-| GBP | VND | sell | 35808 |
+| GBP | VND | sell | 36074 |
 | HKD | VND | reference | 3267.3 |
 | IDR | VND | reference | 1.41 |
 | INR | VND | reference | 269.43 |
-| JPY | VND | buy | 154 |
+| JPY | VND | buy | 155 |
 | JPY | VND | reference | 162.26 |
 | JPY | VND | sell | 171 |
 | KHR | VND | reference | 6.29 |
@@ -90,9 +75,9 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | THB | VND | reference | 757.87 |
 | TRY | VND | reference | 514.54 |
 | TWD | VND | reference | 790.57 |
-| USD | VND | buy | 24400 |
-| USD | VND | reference | 25644 |
-| USD | VND | sell | 26862 |
+| USD | VND | buy | 24406 |
+| USD | VND | reference | 25637 |
+| USD | VND | sell | 26868 |
 
 </details>
 
