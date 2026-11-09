@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-07 by State Bank of Vietnam — 42 rates. Updated 2026-11-06.</summary>
+<summary>Table as text: published 2026-11-09 by State Bank of Vietnam — 42 rates. Updated 2026-11-09.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -76,7 +76,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | TRY | VND | reference | 512.47 |
 | TWD | VND | reference | 779.53 |
 | USD | VND | buy | 24385 |
-| USD | VND | reference | 25615 |
+| USD | VND | reference | 25610 |
 | USD | VND | sell | 26845 |
 
 </details>
