@@ -32,35 +32,35 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-12 by State Bank of Vietnam — 42 rates. Updated 2026-11-12.</summary>
+<summary>Table as text: published 2026-11-13 by State Bank of Vietnam — 42 rates. Updated 2026-11-13.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | VND | reference | 6973.72 |
-| AUD | VND | buy | 16730 |
+| AUD | VND | buy | 16593 |
 | AUD | VND | reference | 17615.25 |
-| AUD | VND | sell | 18491 |
+| AUD | VND | sell | 18340 |
 | BRL | VND | reference | 4587.15 |
-| CAD | VND | buy | 17147 |
+| CAD | VND | buy | 17085 |
 | CAD | VND | reference | 18033.38 |
-| CAD | VND | sell | 18952 |
-| CHF | VND | buy | 29465 |
+| CAD | VND | sell | 18883 |
+| CHF | VND | buy | 29142 |
 | CHF | VND | reference | 31009.81 |
-| CHF | VND | sell | 32566 |
+| CHF | VND | sell | 32209 |
 | CNY | VND | reference | 3837.31 |
 | DKK | VND | reference | 3825.68 |
-| EUR | VND | buy | 27172 |
+| EUR | VND | buy | 26937 |
 | EUR | VND | reference | 28592.12 |
-| EUR | VND | sell | 30032 |
-| GBP | VND | buy | 32485 |
+| EUR | VND | sell | 29772 |
+| GBP | VND | buy | 32236 |
 | GBP | VND | reference | 34175.32 |
-| GBP | VND | sell | 35904 |
+| GBP | VND | sell | 35630 |
 | HKD | VND | reference | 3264.42 |
 | IDR | VND | reference | 1.41 |
 | INR | VND | reference | 273.09 |
-| JPY | VND | buy | 153 |
+| JPY | VND | buy | 152 |
 | JPY | VND | reference | 161.22 |
-| JPY | VND | sell | 169 |
+| JPY | VND | sell | 168 |
 | KHR | VND | reference | 6.28 |
 | KRW | VND | reference | 19.17 |
 | LAK | VND | reference | 1.14 |
@@ -76,8 +76,8 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | TRY | VND | reference | 509.88 |
 | TWD | VND | reference | 780.28 |
 | USD | VND | buy | 25500 |
-| USD | VND | reference | 25623 |
-| USD | VND | sell | 26841 |
+| USD | VND | reference | 25637 |
+| USD | VND | sell | 26868 |
 
 </details>
 
