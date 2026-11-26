@@ -32,29 +32,29 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-25 by State Bank of Vietnam — 42 rates. Updated 2026-11-25.</summary>
+<summary>Table as text: published 2026-11-26 by State Bank of Vietnam — 42 rates. Updated 2026-11-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | VND | reference | 6985.98 |
-| AUD | VND | buy | 16218 |
+| AUD | VND | buy | 16192 |
 | AUD | VND | reference | 17243.4 |
-| AUD | VND | sell | 17925 |
+| AUD | VND | sell | 17896 |
 | BRL | VND | reference | 4440.21 |
-| CAD | VND | buy | 17021 |
+| CAD | VND | buy | 17164 |
 | CAD | VND | reference | 17931.23 |
-| CAD | VND | sell | 18813 |
-| CHF | VND | buy | 29022 |
+| CAD | VND | sell | 18970 |
+| CHF | VND | buy | 29340 |
 | CHF | VND | reference | 30524.69 |
-| CHF | VND | sell | 32077 |
+| CHF | VND | sell | 32429 |
 | CNY | VND | reference | 3847.86 |
 | DKK | VND | reference | 3772.22 |
-| EUR | VND | buy | 26776 |
+| EUR | VND | buy | 26767 |
 | EUR | VND | reference | 28193.38 |
-| EUR | VND | sell | 29594 |
-| GBP | VND | buy | 31967 |
+| EUR | VND | sell | 29584 |
+| GBP | VND | buy | 31999 |
 | GBP | VND | reference | 33858.22 |
-| GBP | VND | sell | 35332 |
+| GBP | VND | sell | 35367 |
 | HKD | VND | reference | 3270.4 |
 | IDR | VND | reference | 1.41 |
 | INR | VND | reference | 274.48 |
@@ -76,8 +76,8 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | TRY | VND | reference | 508.79 |
 | TWD | VND | reference | 778.33 |
 | USD | VND | buy | 25500 |
-| USD | VND | reference | 25679 |
-| USD | VND | sell | 26901 |
+| USD | VND | reference | 25676 |
+| USD | VND | sell | 26909 |
 
 </details>
 
