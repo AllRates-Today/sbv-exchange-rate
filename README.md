@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-27 by State Bank of Vietnam — 42 rates. Updated 2026-11-27.</summary>
+<summary>Table as text: published 2026-11-28 by State Bank of Vietnam — 42 rates. Updated 2026-11-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
